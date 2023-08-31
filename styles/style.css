@@ -42,3 +42,58 @@ header{
  border-radius: 5px;
  color: aliceblue;
 }
+
+/*    Feature style  */
+
+.feature-section h3{
+    font-size: 45px;
+    font-weight: 600px;
+    text-align: center;
+    margin-top: 130px;
+}
+.feature-section p{
+    font-size: 18px;
+    color: darkgray;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+   
+    
+}
+
+.feature-about{
+    display: flex;
+    justify-content: space-around
+}
+.feature-img img{
+    width: 200px;
+    height: 300px;
+
+}
+.feature-img:nth-child(1) {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 78px 0px 78px;
+}
+.feature-img:nth-child(2) {
+    padding: 110px 78px 0px 78px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+
+}
+.feature-img:nth-child(3) {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 110px 78px 0px 78px;
+}
+.flower-name{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.flower-name p{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    font-size: 22px;
+    color: black;
+}
