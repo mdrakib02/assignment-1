@@ -6,20 +6,39 @@
     width: 100%;
     margin: 0px auto;
 }
-.header-section{
-    width: 700px
-
+header{
+    background: rgba(229, 84, 115, 0.10);
+    
 }
-.header-section h1{
+.header-section{
+    padding-bottom: 130px;
+    background-image: url(/asset/pngwing\ 6.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 500px;
+}
+.header-details{
+    width: 700px;
+    padding-top: 200px;
+    display: block;
+}
+.header-details h1{
  font-size: 64px;
  font-weight: 700;
+ 
 }
-.header-section p{
+.header-details p{
  font-size: 18px;
  color: darkgray;
+ margin-top: 20px;
+ margin-bottom: 50px;
 }
 .primary-btn{
  font-size: 20px;
  font-weight: 600;
  background-color: #E55473;
+ padding: 13px 25px;
+ border: 0px;
+ border-radius: 5px;
+ color: aliceblue;
 }
