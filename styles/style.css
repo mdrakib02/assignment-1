@@ -1,99 +1,179 @@
-*{
+* {
     margin: 0;
 }
-.container{
+
+.container {
     max-width: 1440px;
     width: 100%;
     margin: 0px auto;
 }
-header{
+
+header {
     background: rgba(229, 84, 115, 0.10);
-    
+
 }
-.header-section{
+
+.header-section {
     padding-bottom: 130px;
     background-image: url(/asset/pngwing\ 6.png);
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 500px;
 }
-.header-details{
+
+.header-details {
     width: 700px;
     padding-top: 200px;
     display: block;
 }
-.header-details h1{
- font-size: 64px;
- font-weight: 700;
- 
+
+.header-details h1 {
+    font-size: 64px;
+    font-weight: 700;
+
 }
-.header-details p{
- font-size: 18px;
- color: darkgray;
- margin-top: 20px;
- margin-bottom: 50px;
+
+.header-details p {
+    font-size: 18px;
+    color: darkgray;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
-.primary-btn{
- font-size: 20px;
- font-weight: 600;
- background-color: #E55473;
- padding: 13px 25px;
- border: 0px;
- border-radius: 5px;
- color: aliceblue;
+
+.primary-btn {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #E55473;
+    padding: 13px 25px;
+    border: 0px;
+    border-radius: 5px;
+    color: aliceblue;
 }
 
 /*    Feature style  */
 
-.feature-section h3{
+.feature-section h3 {
     font-size: 45px;
     font-weight: 600px;
     text-align: center;
     margin-top: 130px;
 }
-.feature-section p{
+
+.feature-section p {
     font-size: 18px;
     color: darkgray;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 50px;
-   
-    
+
+
 }
 
-.feature-about{
+.feature-about {
     display: flex;
     justify-content: space-around
 }
-.feature-img img{
+
+.feature-img img {
     width: 200px;
     height: 300px;
 
 }
+
 .feature-img:nth-child(1) {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     padding: 110px 78px 0px 78px;
 }
+
 .feature-img:nth-child(2) {
     padding: 110px 78px 0px 78px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
 
 }
+
 .feature-img:nth-child(3) {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     padding: 110px 78px 0px 78px;
 }
-.flower-name{
+
+.flower-name {
     display: flex;
     justify-content: space-around;
-   
+
 }
-.flower-name p{
+
+.flower-name p {
     text-decoration: underline;
     text-decoration-thickness: 2px;
     font-size: 22px;
     color: black;
+}
+
+/* Delivery Style */
+
+.delivery-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e2dedf;
+    padding: 86px 75px;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+/* <!-- signup section --> */
+.signup-section {
+    margin: 0;
+
+}
+
+.signup-section {
+
+    background-color: rgba(229, 84, 115, 0.10);
+
+
+
+
+
+}
+
+.signup-details {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 130px;
+}
+
+.signup-section div h3 {
+    font-size: 40px;
+    font-weight: 800;
+    color: black;
+    margin-bottom: 20px;
+
+}
+
+.offer {
+    color: #E55473;
+}
+
+.signup-section div p {
+    font-size: 18px;
+    color: darkgray;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.signup-section div button{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #E55473;
+    padding: 13px 25px;
+    border: 0px;
+    border-radius: 5px;
+    color: aliceblue;
 }
