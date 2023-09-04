@@ -168,7 +168,7 @@ header {
     margin-bottom: 30px;
 }
 
-.signup-section div button{
+.signup-section div button {
     font-size: 20px;
     font-weight: 600;
     background-color: #E55473;
@@ -176,4 +176,71 @@ header {
     border: 0px;
     border-radius: 5px;
     color: aliceblue;
+}
+
+/* Social Media section */
+.Instagram {
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.Instagram h3 {
+    font-size: 40px;
+    font-weight: 800px;
+    margin-bottom: 20px;
+
+}
+
+.Instagram p {
+    color: darkgray;
+
+
+}
+
+.photo-section{
+    margin-top: 130px;
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: 130px;
+}
+.subscribe-section{
+    background-image: url(../asset/Rectangle\ 9.png);
+    align-items: center;
+    text-align: center;
+    margin-bottom: 130px;
+}
+.subscribe-section h3{
+ font-size: 40px;
+ font-weight: 800;
+ padding-top: 40px;
+ margin-bottom: 10px;
+}
+.subscribe-section p{
+    font-size: 18px;
+    color: darkgray;
+    margin-bottom: 50px;
+}
+.subscribe-section input{
+    width: 30%;
+    height: 48px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 20px;
+    padding-left: 30px;
+    
+    
+}
+.subscribe-section button{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #E55473;
+    padding: 13px 25px;
+    border: 0px;
+    border-radius: 0px 5px 5px 0px;
+    color: aliceblue;
+    margin-bottom: 40px;
+}
+/* MAin section Complete */
+.footer-sectionS{
+    margin-top: 150px;
 }
