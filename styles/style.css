@@ -15,7 +15,7 @@ header {
 
 .header-section {
     padding-bottom: 130px;
-    background-image: url(/asset/pngwing\ 6.png);
+    background-image: url(../asset/pngwing\ 6.png);
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 500px;
@@ -241,6 +241,30 @@ header {
     margin-bottom: 40px;
 }
 /* MAin section Complete */
-.footer-sectionS{
-    margin-top: 150px;
+footer{
+    background-color: black;
+
+}
+.footer-section{
+    text-align: center;
+    
+    
+}
+.footer-section h3{
+    font-size: 45px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+    color: aliceblue;
+    padding-top: 50px;
+}
+.footer-section span{
+    color: #E55473;
+}
+.footer-section p{
+    color: #e2dedf;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom:155px;
+    padding-bottom: 100px;
+    
 }
